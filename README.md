@@ -39,3 +39,6 @@
 
 #### Comando SQL para utilizar a tabela no Workbench
 - USE imersao_sete;
+
+## Insomnia, para simular requisições externas
+- Site - https://insomnia.rest/download

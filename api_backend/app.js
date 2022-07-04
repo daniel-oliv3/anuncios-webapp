@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.send('Olá, Munso! Sapup3 na Área!');
 });
 
-app.get('/cadastrar', async (req, res) => {
+app.post('/cadastrar', async (req, res) => {
   const resultCad = await Anuncio.create({
     titulo: 'Pedreiro da fundação, elétrica, hidráulica, etc...',
     descricao: 'Trabalho da fundação á entraga da chave. Faço orçamento sem compromisso.'
