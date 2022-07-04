@@ -13,6 +13,10 @@ app.get('/cadastrar', async (req, res) => {
   const resultCad = await Anuncio.create({
     titulo: 'Pedreiro da fundação, elétrica, hidráulica, etc...',
     descricao: 'Trabalho da fundação á entraga da chave. Faço orçamento sem compromisso.'
+  }).then(function(){
+    res.send('Anúncio cadastrado com sucesso!');
+  }).catch(function(erro){
+    res.send('Erro: Anúncio não foi cadastrado!');
   });
 });
 
