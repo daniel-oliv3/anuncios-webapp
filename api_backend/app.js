@@ -1,5 +1,8 @@
 const express = require('express');
+const { json } = require('sequelize/types');
 const app = express();
+
+app.use(express.json());
 
 const Anuncio = require('./models/Anuncio');
 
@@ -10,10 +13,9 @@ app.get('/', function (req, res) {
 });
 
 app.post('/cadastrar', async (req, res) => {
-  const resultCad = await Anuncio.create({
-    titulo: 'Pedreiro da fundação, elétrica, hidráulica, etc...',
-    descricao: 'Trabalho da fundação á entraga da chave. Faço orçamento sem compromisso.'
-  }).then(function(){
+  const resultCad = await Anuncio.create(
+    req.body
+  ).then(function(){
     res.send('Anúncio cadastrado com sucesso!');
   }).catch(function(erro){
     res.send('Erro: Anúncio não foi cadastrado!');
