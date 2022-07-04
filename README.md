@@ -7,6 +7,7 @@
 - npm init  
 
 ## Gerencia as requisições, rotas e URLs, entre outras funcionalidades.
+- Site - https://www.npmjs.com/package/express
 - npm install express
 
 ## Rodar o projeto.
