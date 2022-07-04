@@ -31,11 +31,11 @@
 ## Instalando o driver do banco de dados. 
 - npm install --save mysql2
 
-## Instalar o workbench
+## Instalar o Workbench
 - Site - https://dev.mysql.com/downloads/workbench/
 
 ## Criar a base de dados
 - CREATE DATABASE imersao_sete CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 #### Comando SQL para utilizar a tabela no Workbench
-- use imersao_sete;
+- USE imersao_sete;
