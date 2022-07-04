@@ -51,5 +51,10 @@
 ## 2 - Como usar o React para criar o front-end.
 - Site - https://pt-br.reactjs.org/docs/getting-started.html
 
+#### Comando para criar o projeto React
+
 - npx create-react-app crud_frontend
+
+#### Rodar o projeto React-js
+- npm start
 
