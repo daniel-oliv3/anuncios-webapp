@@ -1,4 +1,5 @@
-## 1 - Como criar o back-end com Node.js e MySQL
+## 1 - Como criar o back-end com Node.js e MySQL.
+- CRUD
 #### COMO RODAR O PROJETO BAIXADO.
 #### Instalar todas as dependencias indicada pelo package.json.
 - npm install
@@ -43,3 +44,6 @@
 ## Insomnia, para simular requisições externas
 - Site - https://insomnia.rest/download
 
+## Permite acesso a API.
+- Site - https://www.npmjs.com/package/cors
+- npm install --save cors
