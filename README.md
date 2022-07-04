@@ -58,3 +58,8 @@
 #### Rodar o projeto React-js
 - npm start
 
+## Gerencia as rotas.
+- React Router Dom - https://www.npmjs.com/package/react-router-dom
+
+- npm i react-router-dom
+
