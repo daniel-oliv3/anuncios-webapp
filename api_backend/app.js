@@ -16,9 +16,16 @@ app.post('/cadastrar', async (req, res) => {
   const resultCad = await Anuncio.create(
     req.body
   ).then(function(){
-    res.send('Anúncio cadastrado com sucesso!');
+    return res.json({
+      error: false,
+      message: "Anúncio cadastrado com sucesso!" 
+    });
+
   }).catch(function(erro){
-    res.send('Erro: Anúncio não foi cadastrado!');
+    return res.status(400).json({
+      error: true,
+      message: "Erro: Anúncio não foi cadastrado!" 
+    });
   });
 });
 
