@@ -47,3 +47,9 @@
 ## Permite acesso a API.
 - Site - https://www.npmjs.com/package/cors
 - npm install --save cors
+
+## 2 - Como usar o React para criar o front-end.
+- Site - https://pt-br.reactjs.org/docs/getting-started.html
+
+- npx create-react-app crud_frontend
+
