@@ -18,6 +18,7 @@
 - http://localhost:8080/
 
 ## Instalar o módulo para reiniciar o servidor sempre que houver alteração no codigo fonte, g siginifica globalmente.
+- Site - https://www.npmjs.com/package/nodemon
 - npm install -g nodemon
 
 ## Rodar o projeto usando o nodemon
