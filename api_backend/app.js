@@ -4,15 +4,15 @@ app.use(express.json());
 const Anuncio = require('./models/Anuncio');
 //const db = require("./models/db");
 
-app.get('/', function (req, res) {
-  Anuncio.findAll({order: [['id', 'DESC']]}).then(function(anuncios){
+app.get('/', async (req, res) => {
+  await Anuncio.findAll({order: [['id', 'DESC']]}).then(function(anuncios){
     res.json({anuncios});
   });
 });
 
 /* Visualizar */
 app.get('/visualizar/:id', async (req, res) => {
-  Anuncio.findByPk(req.params.id)
+  await Anuncio.findByPk(req.params.id)
   .then(anuncio => {
     return res.json({
       error: false,
@@ -36,7 +36,6 @@ app.post('/cadastrar', async (req, res) => {
       error: false,
       message: "Anúncio cadastrado com sucesso!" 
     });
-
   }).catch(function(erro){
     return res.status(400).json({
       error: true,
@@ -47,8 +46,8 @@ app.post('/cadastrar', async (req, res) => {
 
 
 /* Editar */
-app.put('/editar', (req, res) => {
-  Anuncio.update(req.body, {
+app.put('/editar', async (req, res) => {
+  await Anuncio.update(req.body, {
     where: {id: req.body.id}
   }).then(function() {
     return res.json({
@@ -65,8 +64,8 @@ app.put('/editar', (req, res) => {
 
 
 /* Apagar */
-app.delete('/apagar/:id', (req, res) => {
-  Anuncio.destroy({
+app.delete('/apagar/:id', async (req, res) => {
+  await Anuncio.destroy({
     where: {id: req.params.id}
   }).then(function() {
     return res.json({
@@ -80,8 +79,6 @@ app.delete('/apagar/:id', (req, res) => {
     });
   });
 });
-
-
 
 
 
