@@ -43,10 +43,3 @@
 ## Insomnia, para simular requisições externas
 - Site - https://insomnia.rest/download
 
-## Erro: Resolvendo erro
-- Erro - ERR_PACKAGE_PATH_NOT_EXPORTED
-
-#### Solução ...
-- npm update
-
-- npm install

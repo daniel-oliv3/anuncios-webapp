@@ -64,6 +64,27 @@ app.put('/editar', (req, res) => {
 });
 
 
+/* Apagar */
+app.delete('/apagar/:id', (req, res) => {
+  Anuncio.destroy({
+    where: {id: req.params.id}
+  }).then(function() {
+    return res.json({
+      error: false,
+      message: "Anúncio apagado com sucesso!"
+    });
+  }).catch(function(erro){
+    return res.status(400).json({
+      error: false,
+      message: "Erro> Anúncio não foi apagado!"
+    });
+  });
+});
+
+
+
+
+
 app.listen(8080, function(){
     console.log("Servidor iniciado na porta 8080: http://localhost:8080/");
 });
