@@ -32,6 +32,7 @@
 - npm install --save mysql2
 
 ## Instalar o workbench
+- Site - https://dev.mysql.com/downloads/workbench/
 
 ## Criar a base de dados
 - CREATE DATABASE banco_dados CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
