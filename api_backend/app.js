@@ -1,5 +1,5 @@
 const express = require('express');
-const { json } = require('sequelize/types');
+//const { json } = require('sequelize');
 const app = express();
 
 app.use(express.json());
@@ -9,7 +9,7 @@ const Anuncio = require('./models/Anuncio');
 //const db = require("./models/db");
 
 app.get('/', function (req, res) {
-  res.send('Olá, Munso! Sapup3 na Área!');
+  res.send('Olá, Mundo! Sapup3 na Área!');
 });
 
 app.post('/cadastrar', async (req, res) => {

@@ -11,11 +11,11 @@ const Anuncio = db.define('anuncios',{
     },
     titulo: {
         type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: false
     },
     descricao: {
         type: Sequelize.TEXT,
-        allowNull: false,
+        allowNull: false
     }
 });
 
