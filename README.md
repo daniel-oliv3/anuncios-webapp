@@ -24,7 +24,8 @@
 ## Rodar o projeto usando o nodemon
 - nodemon app.js
 
-## Seuilize e uma biblioteca javascript que facilita o gerenciamento de banco de dados SQL.
+## Sequilize e uma biblioteca javascript que facilita o gerenciamento de banco de dados SQL.
+- Site - https://www.npmjs.com/package/sequelize
 - npm install --save sequelize
 
 ## Instalando o driver do banco de dados. 
