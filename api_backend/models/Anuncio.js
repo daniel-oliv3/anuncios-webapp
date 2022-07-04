@@ -20,6 +20,6 @@ const Anuncio = db.define('anuncios',{
 });
 
 /*Cria a Tabala*/
-//Anuncio.sync({force: true});
+//Anuncio.sync();
 
 module.exports = Anuncio;

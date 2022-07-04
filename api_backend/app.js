@@ -9,9 +9,18 @@ const Anuncio = require('./models/Anuncio');
 //const db = require("./models/db");
 
 app.get('/', function (req, res) {
-  res.send('Olá, Mundo! Sapup3 na Área!');
+  Anuncio.findAll({order: [['id', 'DESC']]}).then(function(anuncios){
+    res.json({anuncios});
+  });
 });
 
+/* Visualizar */
+app.get('/visualizar', async (req, res) => {
+  res.send("Visualizar");
+});
+
+
+/* Cadastrar */
 app.post('/cadastrar', async (req, res) => {
   const resultCad = await Anuncio.create(
     req.body
