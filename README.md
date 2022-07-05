@@ -63,5 +63,6 @@
 
 - npm i react-router-dom
 
+#### versão @5.0 para ter acesso ao Switch.
 - npm install react-router-dom@5
 
