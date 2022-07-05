@@ -66,3 +66,9 @@
 #### React router dom versão @5.0 para ter acesso ao Switch.
 - npm install react-router-dom@5
 
+## Reactstrap.
+#### Instalar o Bootstrap utilizando Reactstrap e utilizar o Bootstrap para implementar o layout.
+- Site https://reactstrap.github.io/?path=/story/home-installation--page
+- npm install --save bootstrap
+- npm install reactstrap react react-dom
+
