@@ -11,7 +11,7 @@ export const Home = () => {
   const getAnuncio = async () => {
     await axios.get(api)
     .then((response) => {
-      console.log(response);
+      console.log(response.data.anuncios);
     })
     .catch(() => {
       console.log("Erro: Tente mais tarde!");
