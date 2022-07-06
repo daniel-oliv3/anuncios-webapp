@@ -4,7 +4,7 @@
 #### Instalar todas as dependencias indicada pelo package.json.
 - npm install
 
-## SEQUENCIA PARA CRIAR O PROJETO.
+#### SEQUENCIA PARA CRIAR O PROJETO.
 #### Criar o arquivo package.
 - npm init  
 
@@ -13,7 +13,7 @@
 - Site - https://www.npmjs.com/package/express
 - npm install express
 
-## Rodar o projeto.
+#### Rodar o projeto.
 - node app.js
 
 ## Acessar o projeto no navegador.
