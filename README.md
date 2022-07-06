@@ -71,4 +71,5 @@
 - Site https://reactstrap.github.io/?path=/story/home-installation--page
 - npm install --save bootstrap
 - npm install reactstrap react react-dom
+- Navbar - https://6-4-0--reactstrap.netlify.app/components/navbar/
 

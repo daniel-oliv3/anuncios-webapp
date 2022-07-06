@@ -5,9 +5,13 @@ import { Visualizar } from './pages/Visualizar';
 import { Cadastrar } from "./pages/Cadastrar";
 import { Editar } from "./pages/Editar";
 
+import { Menu } from './components/Menu';
+
+
 function App() {
   return (
     <div>
+      <Menu />
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
