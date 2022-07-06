@@ -20,7 +20,7 @@ export const Home = () => {
               <th>ID</th>
               <th>Título</th>
               <th>Descrição</th>
-              <th>Ações</th>
+              <th className="text-center">Ações</th>
             </tr>
           </thead>
           <tbody>
@@ -28,19 +28,19 @@ export const Home = () => {
             <td>1</td>
             <td>Anúncio 1</td>
             <td>Anúncio 1</td>
-            <td></td>
+            <td className="text-center">Botão</td>
           </tr>
           <tr>
             <td>2</td>
             <td>Anúncio 2</td>
             <td>Anúncio 2</td>
-            <td></td>
+            <td className="text-center">Botão</td>
           </tr>
           <tr>
             <td>3</td>
             <td>Anúncio 3</td>
             <td>Anúncio 3</td>
-            <td></td>
+            <td className="text-center">Botão</td>
           </tr>
           </tbody>
         </Table>
