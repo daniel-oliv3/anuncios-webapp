@@ -23,7 +23,7 @@ export const Menu = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components">Anúncios</NavLink>
+              <NavLink href="/">Anúncios</NavLink>
             </NavItem>      
           </Nav>
         </Collapse>
