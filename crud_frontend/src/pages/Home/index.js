@@ -1,7 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import { Container, Table } from 'reactstrap';
 
+import { api } from '../../config';
+
 export const Home = () => {
+
+  const [data, setData] = useState([]);
+
+  const getAnuncio = async () => {
+    await axios.get(api)
+    .then((response) => {
+      console.log(response);
+    })
+    .catch(() => {
+      console.log("Erro: Tente mais tarde!");
+    });
+  }
+
+  useEffect(() => {
+    getAnuncio();
+  });
+
   return (
     <div>
       <Container>
