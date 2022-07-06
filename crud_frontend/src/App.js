@@ -4,6 +4,7 @@ import { Home } from './pages/Home';
 import { Visualizar } from './pages/Visualizar';
 import { Cadastrar } from "./pages/Cadastrar";
 import { Editar } from "./pages/Editar";
+import './App.css';
 
 import { Menu } from './components/Menu';
 
