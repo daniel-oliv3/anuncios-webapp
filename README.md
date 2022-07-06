@@ -73,3 +73,8 @@
 - npm install reactstrap react react-dom
 - Navbar - https://6-4-0--reactstrap.netlify.app/components/navbar/
 
+
+## Axios
+#### Realiza a chamada para API.
+- npm install --save axios
+
