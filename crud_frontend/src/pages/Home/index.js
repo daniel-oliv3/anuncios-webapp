@@ -14,33 +14,33 @@ export const Home = () => {
           </div>
 
         </div>
-        <Table striped>
+        <Table striped hover>
           <thead>
             <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
+              <th>ID</th>
+              <th>Título</th>
+              <th>Descrição</th>
+              <th>Ações</th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>1</td>
+            <td>Anúncio 1</td>
+            <td>Anúncio 1</td>
+            <td></td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>2</td>
+            <td>Anúncio 2</td>
+            <td>Anúncio 2</td>
+            <td></td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
+            <td>3</td>
+            <td>Anúncio 3</td>
+            <td>Anúncio 3</td>
+            <td></td>
           </tr>
           </tbody>
         </Table>
