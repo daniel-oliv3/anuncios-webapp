@@ -12,7 +12,7 @@ export const Home = () => {
     await axios.get(api)
     .then((response) => {
       console.log(response.data.anuncios);
-      setData(response.data.anuncios);
+      //setData(response.data.anuncios);
     })
     .catch(() => {
       console.log("Erro: Tente mais tarde!");
@@ -46,7 +46,7 @@ export const Home = () => {
           </thead>
           <tbody>
             {data.map(item => (
-              <tr>
+              <tr key={item.id}>
                 <td>1</td>
                 <td>1</td>
                 <td>1</td>

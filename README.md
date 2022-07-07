@@ -23,7 +23,7 @@
 #### Instalar o módulo para reiniciar o servidor sempre que houver alteração no codigo fonte, g siginifica globalmente.
 - Site - https://www.npmjs.com/package/nodemon
 - npm install -g nodemon
-
+- Update - npm i nodemon to update
 
 #### Rodar o projeto usando o nodemon.
 - nodemon app.js
@@ -88,4 +88,6 @@
 #### Realiza a chamada para API.
 - Site - https://www.npmjs.com/package/axios
 - npm install --save axios
+
+
 
