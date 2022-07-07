@@ -95,5 +95,5 @@ app.delete('/apagar/:id', async (req, res) => {
 
 
 app.listen(8080, function(){
-    console.log("Servidor iniciado na porta 8080: http://localhost:8080/");
+    console.log("Servidor iniciado na porta 8080: http://localhost:8080");
 });
